@@ -195,7 +195,7 @@ header ul :is(li+li) {
 }
 
 .creations img {
-  vertical-align: top;
+  vertical-align: top;/*Para que no se vea un espacio en blanco en la parte inferior de la imagen*/
 }
 
 .creations button {

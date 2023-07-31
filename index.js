@@ -5,10 +5,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
   navToggle.addEventListener('click', () => {
     nav.classList.toggle('nav--visible');
-    if (nav.classList.contains('nav--visible')) {
-      imgHamburger.src = './images/icon-close.svg';
-    } else {
-      imgHamburger.src = './images/icon-hamburger.svg';
-    }
+    imgHamburger.src = nav.classList.contains('nav--visible') ? './images/icon-close.svg' : './images/icon-hamburger.svg';
   })
 })
